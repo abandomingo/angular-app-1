@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { HomeComponent } from './home/home.component';
-import { RouterModule } from '@angular/router';
+import { RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     HomeComponent,
     RouterModule,
+    RouterOutlet,
   ],
   template: `
   <main>
